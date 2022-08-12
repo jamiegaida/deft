@@ -28,7 +28,8 @@ double_bracket_for_dot_data <- function(files = list.files(
     .f = usethis::ui_info
   )
 
-  if (usethis::ui_yeah("You're about to edit files \nDo you want to proceed?")) {
+  if (usethis::ui_yeah(
+    "You're about to edit files \nDo you want to proceed?")) {
     files %>%
       purrr::map(.f = readLines) %>%
       purrr::map(
