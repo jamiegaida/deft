@@ -1,0 +1,20 @@
+Package: deft
+Type: Package
+Title: Helpful Things for Package Development
+Version: 0.1.0
+Authors@R: 
+    person("Jamie", "Gaida", , "jamie.gaida.codes@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-4504-9188"))
+Description: Collection of things that I find helpful.
+License: MIT + file LICENSE
+URL: https://github.com/jamiegaida/deft
+Encoding: UTF-8
+Imports: 
+    glue,
+    magrittr,
+    praise,
+    purrr,
+    rstudio.prefs,
+    stringr,
+    usethis
+RoxygenNote: 7.2.1
